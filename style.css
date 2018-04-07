@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-size: 1.25em;
+  font-family: arial;
+}
+
+header{
+  min-height: 100vh;
+  background-color: #d5d7e0;
+  color: white;
+}
+
+nav{
+  background-color: #b6beef;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color:white;
+}
+
+a {
+  text-decoration: none;
+}
+nav li{
+  display: inline-block;
+  padding: 1em;
+}
+
+nav ul{
+  margin: 0;
+}
+
+header main {
+  text-align: center;
+  padding-top: 3.5em;
+  font-size: 1.25em;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 2.5em;
+  }
+
+.about-me {
+  padding: 3em 0;
+  background-color: #d5d7e0;
+  color: black;
+  line-height: 2;
+}
+.content {
+  width: 50%;
+  margin:0 auto;
+}
+
+.projects{
+padding: 3em 0;
+background-color: #d5d7e0;
+color: black;
+line-height: 2;
+}
+
+.projects img{
+  width:30%;
+  padding: 30px;
+  padding-left: 0;
+  }
+
+  img{
+    width: 35%;
+  }
